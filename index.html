@@ -1,7 +1,84 @@
 <!DOCTYPE html>
 <html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+.column {
+  float: left;
+  width: 20.0%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.container {
+  padding: 0 16px;
+}
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.title {
+  color: #34495E;
+}
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+.button:hover {
+  background-color: #555;
+}
+body {
+    background-image: url("https://drive.google.com/open?id=1quRlqKKSIKsPUKzThM2IW6kbce2uRy1r");
+    background-repeat: no-repeat;
+    background-size: contain;
+<!--background-image: url("https://drive.google.com/open?id=1quRlqKKSIKsPUKzThM2IW6kbce2uRy1r");-->
+}
+</style>
+</head>
 <body>
+
 <h1>Matthew Leighton</h1>
-<p>Content is coming soon.</p>
+
+<h2>BSc Student (Math and Physics) at Dalhousie University</h2>
+<p>Email: matt@matthewleighton.com</p>
+<br>
+
+<div class="row">
+    <div class="column">
+        <div class="card">
+            <img src="https://drive.google.com/open?id=0B04Fa5DbkExOR0hobFZTTHZkcGs" alt="Matthew" style="width:100%">
+            <div class="container">
+                <h2>Matthew Leighton</h2>
+                <p class="title"></p>
+                <p>Currently working as an undergraduate researcher in the physics department at Dalhousie University.</p>
+                <p>matt@matthewleighton.com</p>
+                <p><button class="button">Contact</button></p>
+            </div>
+        </div>
+    </div>
+</div>
+
 </body>
 </html>
