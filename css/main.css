@@ -164,7 +164,7 @@ ul.posts li { list-style: none; }
   border-radius: 8px;
   padding: 20px;
   margin-bottom: 30px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .card h3, .card h4 {
@@ -172,18 +172,9 @@ ul.posts li { list-style: none; }
   /* No color property means it will inherit from your global heading styles */
 }
 
-/* For research sections specifically */
-.research-card {
-  background-color: #f9f9f9;
-  border-left: 4px solid #304484; /* Left border accent using your link color */
-  padding: 20px;
-  margin-bottom: 30px;
-  border-radius: 0 8px 8px 0;
-}
-
 /* For mobile */
 @media screen and (max-width: 480px) {
-  .card, .research-card {
+  .card {
     padding: 15px;
     margin-bottom: 20px;
   }
