@@ -1,3 +1,4 @@
+/* Base styles - keeping your existing styles */
 body { margin: 60px auto; width: 70%; background-color: white;}
 
 a { text-decoration: none; color: #304484; }
@@ -28,16 +29,19 @@ ul.posts li { list-style: none; }
 .cv address, .cv p { font-size: 1.2em; }
 .cv .download { float: right; font-size: .8em; text-transform: uppercase; }
 
+/* Flex row layout */
 .row {
   display: flex;
+  flex-wrap: wrap; /* Add this to allow wrapping on smaller screens */
 }
 
 .column {
   flex: 50%;
 }
 
+/* Navbar styling */
 .navbar-header {
-  background:transparent;
+  background: transparent;
   overflow: auto;
   list-style-type: none;
   margin: 0;
@@ -46,7 +50,6 @@ ul.posts li { list-style: none; }
   background-color: #333;
 }
 
-/* Style the navigation bar */
 .navbar {
   width: 100%;
   background: transparent;
@@ -56,10 +59,8 @@ ul.posts li { list-style: none; }
   padding: 0;
   overflow: hidden;
   background-color: #333;
-  
 }
 
-/* Navbar links */
 .navbar a {
   display: block;
   color: white;
@@ -68,43 +69,90 @@ ul.posts li { list-style: none; }
   text-decoration: none;
 }
 
-/* Navbar links on mouse-over */
 .navbar a:hover {
   background-color: #111;
 }
 
-/* Current/active navbar link */
 .active {
   background-color: white;
 }
 
-/*ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-}
-
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-/* Change the link color to #111 (black) on hover */
-/*li a:hover {
-  background-color: #111;
-}*/
-
 .navbar {
-  position: -webkit-sticky; /* Safari */
+  position: -webkit-sticky;
   position: sticky;
   top: 0;
+}
+
+/* NEW: Media Queries for Responsive Design */
+
+/* For tablets and smaller devices */
+@media screen and (max-width: 768px) {
+  body {
+    width: 90%;
+    margin: 30px auto;
+  }
+  
+  /* Adjust font sizes for better readability */
+  h1 { font-size: 2.5em; }
+  h2 { font-size: 2.2em; }
+  h3 { font-size: 1.9em; }
+  h4 { font-size: 1.6em; }
+  
+  p, ul { 
+    font-size: 1.2em; 
+    line-height: 1.3em;
+  }
+  
+  /* Make images responsive */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Adjustments for nav and footer */
+  nav ul li, footer ul li {
+    margin-right: 10px;
+  }
+}
+
+/* For mobile phones */
+@media screen and (max-width: 480px) {
+  body {
+    width: 95%;
+    margin: 15px auto;
+  }
+  
+  /* Further reduce font sizes */
+  h1 { font-size: 2em; }
+  h2 { font-size: 1.8em; }
+  h3 { font-size: 1.6em; }
+  h4 { font-size: 1.4em; }
+  
+  p, ul { 
+    font-size: 1.1em;
+    line-height: 1.2em; 
+  }
+  
+  /* Stack columns on mobile */
+  .column {
+    flex: 100%;
+  }
+  
+  /* Adjust navigation and footer */
+  nav ul li, footer ul li {
+    display: block;
+    margin: 5px 0;
+  }
+  
+  footer {
+    text-align: center;
+  }
+  
+  /* Ensure images don't overflow */
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 15px auto;
+  }
 }
