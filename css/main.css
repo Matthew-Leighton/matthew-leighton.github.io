@@ -156,3 +156,35 @@ ul.posts li { list-style: none; }
     margin: 0 auto 15px auto;
   }
 }
+
+/* Card-style content sections */
+.card {
+  background-color: #f9f9f9;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.card h3, .card h4 {
+  margin-top: 0;
+  color: #304484; /* Matching your link color for consistency */
+}
+
+/* For research sections specifically */
+.research-card {
+  background-color: #f9f9f9;
+  border-left: 4px solid #304484; /* Left border accent using your link color */
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 0 8px 8px 0;
+}
+
+/* For mobile */
+@media screen and (max-width: 480px) {
+  .card, .research-card {
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+}
