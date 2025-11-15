@@ -1,79 +1,33 @@
 /* Base styles - keeping your existing styles */
-body { 
-  margin: 60px auto; 
-  width: 70%; 
-  background-color: white;
-}
+body { margin: 60px auto; width: 70%; background-color: white;}
 
-a { 
-  text-decoration: none; 
-  color: #304484; 
-}
-a:hover { 
-  text-decoration: underline; 
-}
+a { text-decoration: none; color: #304484; }
+a:hover { text-decoration: underline; }
 
-p, ul { 
-  font-size: 1.5em; 
-  line-height: 1.4em; 
-  color: #333; 
-}
+p, ul { font-size: 1.5em; line-height: 1.4em; color: #333; }
 
-h1, h2, h3, h4 { 
-  font-family: 'Helvetica', 'Arial', 'Sans-Serif'; 
-}
+h1, h2, h3, h4 { font-family: 'Helvetica', 'Arial', 'Sans-Serif'; }
 h1 { font-size: 3em;  }
 h2 { font-size: 2.7em; }
 h3 { font-size: 2.3em; }
 h4 { font-size: 1.9em; }
 
-nav ul, footer ul { 
-  font-size: 1em; 
-  font-family: 'Helvetica', 'Arial', 'Sans-Serif'; 
-  padding: 0px; 
-  list-style: none; 
-  font-weight: bold; 
-}
-nav ul li, footer ul li { 
-  display: inline; 
-  margin-right: 20px; 
-}
+nav ul, footer ul { font-size: 1em; font-family: 'Helvetica', 'Arial', 'Sans-Serif'; padding: 0px; list-style: none; font-weight: bold; }
+nav ul li, footer ul li { display: inline; margin-right: 20px; }
 
-footer { 
-  border-top: 1px solid #d5d5d5; 
-  font-size: .8em; 
-}
+footer { border-top: 1px solid #d5d5d5; font-size: .8em; }
 
 /* Blog */
-ul.posts { 
-  margin: 20px auto 40px; 
-  font-size: 1.5em; 
-}
-ul.posts li { 
-  list-style: none; 
-}
+ul.posts { margin: 20px auto 40px; font-size: 1.5em; }
+ul.posts li { list-style: none; }
 
 /* CV */
-.cv { 
-  margin: 0px 0px 60px; 
-}
-.cv h1 { 
-  font-size: 3em; 
-}
-.cv h2 { 
-  font-size: 2em; 
-}
-.cv address, .cv .download { 
-  font-family: 'Helvetica', 'Arial', 'Sans-Serif'; 
-}
-.cv address, .cv p { 
-  font-size: 1.2em; 
-}
-.cv .download { 
-  float: right; 
-  font-size: .8em; 
-  text-transform: uppercase; 
-}
+.cv { margin: 0px 0px 60px; }
+.cv h1 { font-size: 3em; }
+.cv h2 { font-size: 2em; }
+.cv address, .cv .download { font-family: 'Helvetica', 'Arial', 'Sans-Serif'; }
+.cv address, .cv p { font-size: 1.2em; }
+.cv .download { float: right; font-size: .8em; text-transform: uppercase; }
 
 /* Flex row layout */
 .row {
@@ -203,20 +157,6 @@ ul.posts li {
   }
 }
 
-/* Research page layout */
-.research {
-  display: grid;
-  grid-template-columns: 1fr;        /* default: single column */
-  gap: 30px;                         /* space between cards */
-}
-
-/* When the screen is wide enough, allow multiple columns */
-@media screen and (min-width: 900px) {
-  .research {
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  }
-}
-
 /* Card-style content sections */
 .card {
   background-color: #f9f9f9;
@@ -238,9 +178,4 @@ ul.posts li {
     padding: 15px;
     margin-bottom: 20px;
   }
-}
-
-/* Avoid double vertical spacing inside the research grid */
-.research .card {
-  margin-bottom: 0;
 }
