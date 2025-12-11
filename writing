@@ -1,0 +1,78 @@
+---
+layout: default
+title: Research
+---
+
+	<div class="research">
+
+		<div class="card">
+		<h4>Energy and Information Transduction Within Molecular Machines</h4>
+		<img src="FreeEnergyFlows.png" alt="Molecular Machine Cartoons" height="300">
+		<p><i> With Professor <a href=https://www.sfu.ca/physics/sivakgroup.html/>David Sivak</a> and Dr  <a href=https://jannikehrich.github.io//>Jannik Ehrich</a>  </i>
+		<p>  Within the cells of every plant and animal on earth, countless microscopic molecular machines are in constant motion. These machines convert between different types of energy, transport materials, and assemble complex structures. These machines transduce energy between different external reservoirs, and also within themselves between internally coupled subsystems. We are working to identify and understand the internal flows of energy and information within biological molecular machines, with the goal of uncovering design principles for the future engineering of multi-component synthetic nanomachines. 
+
+		<p> <strong> Related Publications:</strong>
+		<ul>
+			<li> "Inferring Subsystem Efficiencies in Bipartite Molecular Machines". <strong>Matthew P Leighton</strong> and David A Sivak. <i>Physical Review Letters</i>, <strong>130</strong>:178401, 2023. (<a href=https://doi.org/10.1103/PhysRevLett.130.178401>Journal</a>, <a href=https://arxiv.org/abs/2209.12084>Arxiv</a>, <a href=https://physics.aps.org/articles/v16/s56>Synopsis in Physics Magazine</a>) </li>
+			<li> "Information Arbitrage in Bipartite Heat Engines". <strong>Matthew P Leighton*</strong>, Jannik Ehrich* and David A Sivak. <i>Physical Review X</i>, <strong>14</strong>:041038, 2024. (<a href=https://doi.org/10.1103/PhysRevX.14.041038>Journal</a>, <a href=https://arxiv.org/abs/2308.06325>Arxiv</a>, <a href=https://physics.aps.org/articles/v17/162>Focus Article in Physics Magazine</a>) </li>
+			<li> "Flow of Energy and Information in Molecular Machines". <strong>Matthew P Leighton</strong> and David A Sivak. <i>Annual Reviews of Physical Chemistry</i>, <strong>76</strong>:16.1-16.25, 2025. (<a href=https://doi.org/10.1146/annurev-physchem-082423-030023>Journal</a>, <a href=https://arxiv.org/abs/2406.10355>Arxiv preprint</a>) </li>
+			<li> "Hunting for Maxwell's Demon in the Wild". Johan du Buisson*, Jannik Ehrich*, <strong>Matthew P Leighton*</strong>, Avijit Kundu, Tushar K Saha, John Bechhoefer and David A Sivak. (<a href=https://arxiv.org/abs/2504.11329>Arxiv preprint</a>) </li>
+			<li> "Information Thermodynamics of Cellular Ion Pumps". Julián D Jiménez-Paz, <strong>Matthew P Leighton*</strong>, and David A Sivak*. (<a href=https://arxiv.org/abs/2506.11248>Arxiv preprint</a>) </li>
+
+
+		</ul>
+		</div>
+		
+		<div class="card">
+		<h4>Collective Behaviour of Molecular Transport Motor Systems</h4>
+  		<img src="Collective_Transport.png" alt="Collective Transport Figure" height="300">
+
+		<p><i> With Professor <a href=https://www.sfu.ca/physics/sivakgroup.html/>David Sivak</a>  </i>
+		<p>  Important molecular cargo like vesicles and organelles are moved around within cells by molecular <i> transport motors </i> like kinesin and myosin. These motors burn chemical “fuel” in order to achieve directed motion, and often work collectively to transport large cargo. Depending on the context, anywhere from only one to over 200 motors can be attached to a single cargo. We studied the dynamics and thermodynamics of these collective motor-driven transport systems, outlining scaling laws and performance trade-offs as the number of motors is varied, and ultimately deriving theoretical bounds on their performance which are totally independent of the number and types of motors present.
+		<p> <strong> Related Publications:</strong>
+		<ul>
+			<li> "Dynamic and Thermodynamic Bounds for Collective Motor-Driven Transport". <strong>Matthew P Leighton</strong> and David A Sivak. <i>Physical Review Letters</i>, <strong>129</strong>:118102, 2022. (<a href=https://doi.org/10.1103/PhysRevLett.129.118102>Journal</a>, <a href=https://arxiv.org/abs/2202.13992>Arxiv</a>) </li>
+			<li> "Performance Scaling and Trade-offs for Collective Motor-Driven Transport". <strong>Matthew P Leighton</strong> and David A Sivak. <i>New Journal of Physics</i>, <strong>24</strong>:013009, 2022. (<a href=https://doi.org/10.1088/1367-2630/ac3db7>Journal</a>, <a href=https://arxiv.org/abs/2108.13893>Arxiv</a>, <a href=https://www.eurekalert.org/news-releases/940316>In the press</a>) </li>
+			<li> "Jensen Bound for the Entropy Production Rate in Stochastic Thermodynamics". <strong>Matthew P Leighton</strong> and David A Sivak. <i>Physical Review E (Letter)</i>, <strong>109</strong>:L012101, 2024. (<a href=https://doi.org/10.1103/PhysRevE.109.L012101>Journal</a>, <a href=https://arxiv.org/abs/2305.11287>Arxiv</a>) </li>
+		</ul>
+		</div>
+
+		<div class="card">
+		<h4>Collagen Fibrils: Growth, Structure, and Mechanical Properties</h4>
+		<img src="CollagenImage.png" alt="Collagen Fibril Cartoon" height="300">
+		<p><i> With Professors <a href=http://fizz.phys.dal.ca/~adr/>Andrew Rutenberg</a> and <a href=http://fizz.phys.dal.ca/~kreplak/>Laurent Kreplak</a> </i>
+		<p>Collagen is the single most abundant protein in the human body. Individual collagen molecules spontaneously self-assemble <i>in vivo</i> into fibrils: long molecular ropes which are a key structural component in many different animal tissues (the prototypical example is tendons, but collagen fibrils can also be found in tissues such as skin, bone, cartilage, and cornea). Within these fibrils collagen molecules are highly ordered, leading to microscopically visible features such as periodic axial density modulations and high angular surface twist. To understand the self-assembly of collagen fibrils <i>in vivo</i> we derived a nonequilibrium growth model for cross-linked fibrils, which predicts internal structure and radius control mechanisms consistent with experimental observations. We also extended results from the neoclassical theory of nematic rubber elasticity to the double-twist molecular director field of collagen fibrils in order to model the effects of applied strain on the complex macromolecular structures predicted by our growth model.
+		<p> <strong> Related Publications:</strong>
+		<ul>
+			<li> "Nonequilibrium Growth and Twist of Cross-Linked Collagen Fibrils". <strong>Matthew P Leighton</strong>, Laurent Kreplak, and Andrew D Rutenberg. <i>Soft Matter</i>, <strong>17</strong>:1415, 2021. (<a href=https://doi.org/10.1039/D0SM01830A>Journal</a>, <a href=https://arxiv.org/abs/2010.06561>Arxiv</a>) </li>
+
+			<li> "Chiral Phase-Coexistence in Compressed Double-Twist Elastomers". <strong>Matthew P Leighton</strong>, Laurent Kreplak, and Andrew D Rutenberg. <i>Soft Matter</i>, <strong>17</strong>:5018, 2021. (<a href=https://doi.org/10.1039/D1SM00181G>Journal</a>, <a href=https://arxiv.org/abs/2102.02242>Arxiv</a>) </li>
+
+			<li> "D-Band Strain Underestimates Collagen Fibril Strain". <strong>Matthew P Leighton</strong>, Andrew D Rutenberg, and Laurent Kreplak. <i>Journal of the Mechanical Behavior of Biomedical Materials</i>, <strong>124</strong>:104854, 2021. (<a href=https://doi.org/10.1016/j.jmbbm.2021.104854>Journal</a>, <a href=https://arxiv.org/abs/2104.14648>Arxiv</a>) </li>
+			
+			<li> "Torsion and Bistability of Double-Twist Elastomers". <strong>Matthew P Leighton</strong>, Laurent Kreplak, and Andrew D Rutenberg. <i>Soft Matter</i>, <strong>19</strong>:6376, 2023. (<a href=https://doi.org/10.1039/d3sm00554b>Journal</a>, <a href=https://arxiv.org/abs/2304.14349>Arxiv</a>) </li>
+		</ul>
+		</div>
+
+		<div class="card">
+		<h4>Understanding Neural Encoding of Position in the Hippocampus</h4>
+		<img src="Mouse_Hippocampus.png" alt="Place Cell Cartoon" height="300">
+		<p><i> With Professor <a href=https://lynnlab.yale.edu/>Chris Lynn</a> and  <a href=https://qiweiyuu.github.io/>Qiwei Yu</a>  </i>
+		<p>  Within the hippocampus of mammals, position in space is encoded by the firing statistics of a combination of place cells and grid cells. We are investigating how exactly these neurons encode position and how this compares to information-theoretically optimal encodings, and exploring how position encoding changes over time in experimental data.
+			
+		<p> <strong> Related Publications:</strong>
+		<ul>
+			<li> "Coarse-graining dynamics to maximize irreversibility". Qiwei Yu, <strong>Matthew P Leighton</strong>, and Christopher W Lynn. (<a href=https://arxiv.org/abs/2506.01909>Arxiv preprint</a>) </li>
+
+
+		</ul>
+		</div>
+
+		<div class="card">
+		<h4>Stochastic modelling of cellular <em>Salmonella</em> infection</h4>
+		<img src="InfectionDiagram.png" alt="Infection Cartoon" height="300">
+		<p><i> With Professor <a href=http://fizz.phys.dal.ca/~adr/>Andrew Rutenberg</a> </i>  
+		<p> Salmonella bacteria are a prototypical labaratory pathogen exhibiting a particularly interesting behavioural trait: the <a href=https://en.wikipedia.org/wiki/Membrane_ruffling>ruffling mechanism</a>. To better understand the impact of the ruffling on the statistics and dynamics of bacterial invasion, we developed an agent-based stochastic model for invasion of host cells by Salmonella bacteria. Using this model we were able to explain recent experimental data, determine environmental conditions under which stochastic effects are most significant, and gain quantitative insight into cooperative invasion behaviour.
+		</div>
+			
+	</div>
